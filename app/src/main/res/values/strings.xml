@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="current_weather_title">Current Weather</string>
+    <string name="daily_forecast_title">Daily ForeCast</string>
+    <string name="search_city_title">Search city</string>
+    <string name="night_text">Night</string>
+    <string name="day_text">Day</string>
+    <string name="morning_text">Morning</string>
+    <string name="evening_text">Evening</string>
+
+    <!--activity_main_string-->
+    <string name="detect_location">Detect location</string>
+    <string name="search_hint">city</string>
+    <string name="search_btn">SEARCH</string>
+    <string name="city_name_text_view">City name</string>
+    <string name="country_code_text_view">COUNTRY CODE</string>
+    <string name="daily_forecast_btn">EXTENDED DAILY FORECAST</string>
+    <string name="icon_wind" translatable="false"></string>
+    <string name="icon_humidity" translatable="false"></string>
+    <string name="icon_pressure" translatable="false"></string>
+    <string name="icon_cloudiness" translatable="false"></string>
+    <!--weather icon-->
+    <string name="icon_clear_sky_day" translatable="false"></string>
+    <string name="icon_clear_sky_night" translatable="false"></string>
+    <string name="icon_few_clouds_day" translatable="false"></string>
+    <string name="icon_few_clouds_night" translatable="false"></string>
+    <string name="icon_scattered_clouds" translatable="false"></string>
+    <string name="icon_broken_clouds" translatable="false"></string>
+    <string name="icon_shower_rain" translatable="false"></string>
+    <string name="icon_rain_day" translatable="false"></string>
+    <string name="icon_rain_night" translatable="false"></string>
+    <string name="icon_thunderstorm" translatable="false"></string>
+    <string name="icon_snow" translatable="false"></string>
+    <string name="icon_mist" translatable="false"></string>
+    <string name="icon_weather_default" translatable="false"></string>
+</resources>

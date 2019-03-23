@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/temperature_linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="?attr/listPreferredItemPaddingLeft"
+        android:paddingEnd="?attr/listPreferredItemPaddingRight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/date_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="16sp"
+                tools:text="Wed, 31 September" />
+
+            <TextView
+                android:id="@+id/min_temp_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_text_view"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="14sp"
+                tools:text="666" />
+
+            <TextView
+                android:id="@+id/max_temp_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date_text_view"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@+id/min_temp_text_view"
+                android:paddingStart="?attr/listPreferredItemPaddingLeft"
+                android:paddingEnd="?attr/listPreferredItemPaddingRight"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="14sp"
+                tools:text="666" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/weather_icon_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textSize="38sp"
+            tools:text="Clear" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/forecast.divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperature_linear_layout" />
+</android.support.constraint.ConstraintLayout>
