@@ -8,6 +8,4 @@ Sign in and get *API keys* for free API **Current weather data**
 
 With **16 day/ daily forecast** API, it is only available for all paid accounts.
 ## Layout
-![activity_main_layout](activity_main.png)
-![activity_weather_forecast_layout](activity_weather_forecast.png)
-![activity_extended_info_layout](activity_extended_info.png)
+![activity_main_layout](activity_main.png)![activity_weather_forecast_layout](activity_weather_forecast.png)![activity_extended_info_layout](activity_extended_info.png)
